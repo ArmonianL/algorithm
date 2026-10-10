@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "48ce9e15905856f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "3aab00f9de5468ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3eb4dc54ab6f2fb8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Algorithm/贪心证明.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "贪心证明"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9bc70ba37eafbbd7",
+    "type": "split",
+    "children": [
+      {
+        "id": "0a9cf7ad83170384",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "338741b9bd54ecaf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "ac669728c289abab",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "0864080152770d97",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6edc3b2b8ed9417a",
+    "type": "split",
+    "children": [
+      {
+        "id": "b07b57d6ecadc9c5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "392a4563f342c8ee",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Thinking/不同维度的支配关系.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "2d59ba39dcf501c8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Thinking/不同维度的支配关系.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "7ae6290f778b410e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "2655575a30524672",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "9da80e424972ec37",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Thinking/不同维度的支配关系.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "338741b9bd54ecaf",
+  "lastOpenFiles": [
+    "Algorithm/贪心设计.pdf",
+    "Algorithm/贪心证明.pdf",
+    "Algorithm/贪心的详细理解.pdf",
+    "00-Review.md",
+    "未命名.md",
+    "Thinking/从二重循环到增量维护：复用内层循环的进度与结果.md",
+    "Thinking/用维护代替重复计算.md",
+    "D - Inverse and Swap.md",
+    "00-Review 1.md",
+    "Thinking/贡献法.md",
+    "Thinking/不同维度的支配关系.md",
+    "Thinking/抽屉原理.md",
+    "Thinking/邻接矩阵和距离矩阵.md",
+    "Thinking/二维枚举.md",
+    "Thinking/随时间统一增长的值，可以把“时间”从状态中拆掉.md",
+    "Thinking/绝对值可以拆成分段线性.md",
+    "Algorithm/DP.md",
+    "Thinking/递归.md",
+    "未命名 2.md",
+    "未命名 3.md",
+    "Algorithm/KMP.md",
+    "Thinking/寻找一个操作中两个变量的组合关系.md",
+    "Thinking"
+  ]
+}
