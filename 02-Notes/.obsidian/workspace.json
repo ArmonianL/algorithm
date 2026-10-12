@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3aab00f9de5468ba",
+        "id": "baa4737208c51f88",
         "type": "tabs",
         "children": [
           {
-            "id": "3eb4dc54ab6f2fb8",
+            "id": "ad37d7a2b37b5af7",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Algorithm/贪心证明.pdf"
+                "file": "00-Review.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "贪心证明"
+              "icon": "lucide-file",
+              "title": "00-Review"
             }
           }
         ]
@@ -186,12 +188,14 @@
       "bases:新建数据库": false
     }
   },
-  "active": "338741b9bd54ecaf",
+  "active": "ad37d7a2b37b5af7",
   "lastOpenFiles": [
-    "Algorithm/贪心设计.pdf",
-    "Algorithm/贪心证明.pdf",
-    "Algorithm/贪心的详细理解.pdf",
+    "Algorithm/时间复杂度和空间复杂度.md",
+    "Algorithm/STL时间复杂度总结.md",
     "00-Review.md",
+    "Algorithm/贪心证明.pdf",
+    "Algorithm/贪心设计.pdf",
+    "Algorithm/贪心的详细理解.pdf",
     "未命名.md",
     "Thinking/从二重循环到增量维护：复用内层循环的进度与结果.md",
     "Thinking/用维护代替重复计算.md",
