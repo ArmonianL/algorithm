@@ -1,3 +1,16 @@
+//O(log2 b)
+int qmi(int a,int b,int p)
+{
+    int res=1%p;//1mod1=0！！！
+    while(b)
+    {
+        if(b&1) res=(ll)res*a%p;
+        b >>= 1;
+        a=(ll)a*a%p;
+    }
+    return res;
+}
+
 //二进制思想：指数拆成二进制
 ll qmi(ll a,ll b,ll p)
 {
@@ -10,3 +23,4 @@ ll qmi(ll a,ll b,ll p)
     }
     return res;
 }
+

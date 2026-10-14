@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8e02105733d5cac8",
+        "id": "b48ed96c49b3e6b4",
         "type": "tabs",
         "children": [
           {
-            "id": "87e218724f9cfc52",
+            "id": "bc0e4bb17e36db8e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Algorithm/贪心证明.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "贪心证明"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -186,32 +184,43 @@
       "bases:新建数据库": false
     }
   },
-  "active": "87e218724f9cfc52",
+  "active": "bc0e4bb17e36db8e",
   "lastOpenFiles": [
-    "Algorithm/贪心设计.pdf",
-    "Algorithm/贪心证明.pdf",
-    "Thinking/贡献法.md",
     "00-Review.md",
-    "Algorithm/时间复杂度和空间复杂度.md",
-    "Algorithm/STL时间复杂度总结.md",
-    "Algorithm/贪心的详细理解.pdf",
-    "未命名.md",
-    "Thinking/从二重循环到增量维护：复用内层循环的进度与结果.md",
-    "Thinking/用维护代替重复计算.md",
-    "D - Inverse and Swap.md",
-    "00-Review 1.md",
-    "Thinking/不同维度的支配关系.md",
-    "Thinking/抽屉原理.md",
-    "Thinking/邻接矩阵和距离矩阵.md",
-    "Thinking/二维枚举.md",
-    "Thinking/随时间统一增长的值，可以把“时间”从状态中拆掉.md",
-    "Thinking/绝对值可以拆成分段线性.md",
-    "Algorithm/DP.md",
-    "Thinking/递归.md",
-    "未命名 2.md",
-    "未命名 3.md",
-    "Algorithm/KMP.md",
-    "Thinking/寻找一个操作中两个变量的组合关系.md",
-    "Thinking"
+    "techniques/递归.md",
+    "cpp/语法，运行.md",
+    "cpp/STL时间复杂度总结.md",
+    "cpp/STL.md",
+    "cpp/实现细节.md",
+    "cpp",
+    "新建文件夹",
+    "techniques/随时间统一增长的值，可以把“时间”从状态中拆掉.md",
+    "techniques/邻接矩阵和距离矩阵.md",
+    "techniques/绝对值可以拆成分段线性.md",
+    "techniques/贡献法.md",
+    "techniques/用维护代替重复计算.md",
+    "techniques/异或.md",
+    "techniques/树的存储.md",
+    "techniques/抽屉原理.md",
+    "techniques/寻找一个操作中两个变量的组合关系.md",
+    "techniques/从二重循环到增量维护：复用内层循环的进度与结果.md",
+    "techniques/二维枚举.md",
+    "techniques/不同维度的支配关系.md",
+    "techniques/MOD.md",
+    "techniques",
+    "algorithms/队列.md",
+    "algorithms/贪心证明.pdf",
+    "algorithms/贪心设计.pdf",
+    "algorithms/贪心的详细理解.pdf",
+    "algorithms/计数问题.md",
+    "algorithms/蒙德里安的梦想.md",
+    "algorithms/背包.md",
+    "algorithms/离散化.md",
+    "algorithms/树和图的深度优先遍历.md",
+    "algorithms/树与图的广度优先遍历.md",
+    "algorithms",
+    "Algorithms/贪心证明.pdf",
+    "Algorithms/贪心设计.pdf",
+    "Algorithms/贪心的详细理解.pdf"
   ]
 }
