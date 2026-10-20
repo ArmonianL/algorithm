@@ -1,3 +1,4 @@
+// 二维前缀和：预处理 O(n*m)，查询 O(1)
     for(int i=1;i<=n;i++)
     for(int j=1;j<=m;j++)
     s[i][j]=a[i][j]+s[i][j-1]+s[i-1][j]-s[i-1][j-1];

@@ -1,3 +1,4 @@
+// 二维差分：预处理 O(n*m)，矩形修改 O(1)，还原 O(n*m)
 void insert(int x1,int y1,int x2,int y2,int c)
 {
     b[x1][y1]+=c;

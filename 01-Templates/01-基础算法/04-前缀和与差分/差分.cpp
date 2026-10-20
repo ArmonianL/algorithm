@@ -1,3 +1,4 @@
+// 一维差分：预处理 O(n)，区间修改 O(1)，还原 O(n)
 void insert(int l,int r,int c)
 {
     b[l]+=c;
