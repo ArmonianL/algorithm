@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0074c1993de07dee",
+        "id": "cabe25a93a6081cd",
         "type": "tabs",
         "children": [
           {
-            "id": "4b3e1f8e862fee87",
+            "id": "276a889184174a58",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-Review.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "00-Review"
+              "title": "新标签页"
             }
           }
         ]
@@ -55,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "递归",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -188,36 +184,36 @@
       "bases:新建数据库": false
     }
   },
-  "active": "4b3e1f8e862fee87",
+  "active": "276a889184174a58",
   "lastOpenFiles": [
-    "algorithms/01-基础算法/09-递推与递归/递推与递归.md",
-    "algorithms/01-基础算法/04-前缀和与差分/差分.md",
-    "未命名.md",
+    "algorithms/03-搜索与图论/02-BFS/BFS.md",
     "00-Review.md",
+    "01-README.md",
+    "未命名.md",
+    "BFS 的状态扩展与状态压缩.md",
+    "thinking/用维护代替重复计算.md",
+    "00-Home.md",
+    "algorithms/02-数据结构/09-并查集/带权并查集.md",
+    "thinking/不同维度的支配关系.md",
     "algorithms/01-基础算法/02-二分/二分.md",
-    "algorithms/05-动态规划/DP.md",
+    "thinking/相邻状态递推.md",
+    "thinking/双向拆分.md",
+    "thinking/寻找一个操作中两个变量的组合关系.md",
+    "techniques/二维枚举.md",
+    "techniques/从二重循环到增量维护：复用内层循环的进度与结果.md",
+    "thinking/贡献法.md",
+    "thinking/邻接矩阵和距离矩阵.md",
+    "thinking/随时间统一增长的值，可以把“时间”从状态中拆掉.md",
     "algorithms/01-基础算法/05-双指针/双指针.md",
-    "algorithms/01-基础算法/07-离散化/离散化.md",
-    "cpp/实现细节.md",
-    "techniques/贡献法.md",
-    "cpp/stl.pdf",
-    "cpp/语法，运行.md",
-    "techniques/MOD.md",
-    "algorithms/01-基础算法/09-递推与递归",
-    "cpp/时间复杂度和空间复杂度.md",
-    "algorithms/01-基础算法/09-递推与递归/分治.md",
-    "algorithms/算法对比总结.md",
-    "algorithms/03-搜索与图论/07-最小生成树/Prim/Prim.md",
-    "algorithms/03-搜索与图论/07-最小生成树/Kruskal/Kruskal.md",
-    "algorithms/03-搜索与图论/06-最短路/SPFA/SPFA.md",
-    "algorithms/03-搜索与图论/06-最短路/Floyd/Floyd.md",
-    "algorithms/03-搜索与图论/06-最短路/Dijkstra/Dijkstra.md",
     "algorithms/03-搜索与图论/06-最短路/Bellman-Ford/Bellman-Ford.md",
-    "algorithms/05-动态规划/数位统计/计数问题.md",
-    "algorithms/05-动态规划/05-状态压缩DP/蒙德里安的梦想.md",
-    "algorithms/05-动态规划/02-线性DP/最长公共子序列.md",
-    "algorithms/05-动态规划/02-线性DP/最长上升子序列（优化版）.md",
-    "algorithms/05-动态规划/03-区间DP/区间DP.md",
+    "algorithms/03-搜索与图论/04-树与图的广度优先遍历/树与图的广度优先遍历.md",
+    "algorithms/03-搜索与图论/01-DFS/DFS.md",
+    "algorithms/03-搜索与图论/08-二分图/二分图.md",
+    "algorithms/03-搜索与图论/07-最小生成树/最小生成树.md",
+    "algorithms/03-搜索与图论/06-最短路/最短路.md",
+    "cpp/语法，运行.md",
+    "cpp/stl.pdf",
+    "algorithms/01-基础算法/09-递推与递归",
     "algorithms/05-动态规划/01-背包问题/完全背包",
     "algorithms/05-动态规划/01-背包问题/多重背包",
     "algorithms/05-动态规划/01-背包问题/分组背包",

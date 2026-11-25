@@ -1,3 +1,4 @@
+//O(n^3)
 const int N =205;
 const int INF=0x3f3f3f3f;
 int d[N][N];//距离数组
@@ -5,17 +6,18 @@ int d[N][N];//距离数组
 void init()
 {
     memset(d,0x3f,sizeof(d));
-    for(int i=1;i<=n;i++) d[i][i]=0;
+    for(int i=1;i<=n;i++) d[i][i]=0;//注意这个
 }
 
 void floyd()
 {
-    for(int k=1;k<=n;k++)
+    for(int k=1;k<=n;k++)//枚举中间点
     {
         for(int i=1;i<=n;i++)
         {
             for(int j=1;j<=n;j++)
             {
+                ////这里自然而然地把k=i或j的情况解决了，这样枚举每一个中间点k都能让第k行和k列保持不变，所以i和j的遍历顺序也就不重要了
                 d[i][j]=min(d[i][j],d[i][k]+d[k][j]);
             }
         }

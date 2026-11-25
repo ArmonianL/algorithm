@@ -1,3 +1,5 @@
+//O(n²) 稠密图
+//（全图）每次选离已选集合最近的点，然后更新
 int g[N][N];
 
 void init()
@@ -5,15 +7,15 @@ void init()
     memset(g,0x3f,sizeof(g));
 }
 
-int dis[N];
-bool vis[N];
+int dis[N];//未选点 j 到已选集合的最小边权
+bool vis[N];//点 j 是否已经加入集合
 int prim()
 {
     memset(dis,0x3f,sizeof(dis));
-    dis[1]=0;//自己选择一个点当作起点
+    dis[1]=0;//自己选择一个点当作起点，这里千万不要vis[1]=true;应该让第一轮循环选第一个点
 
     int res=0;
-    for(int i=1;i<=n;i++)
+    for(int i=1;i<=n;i++)//n轮
     {
         int t=-1;
         for(int j=1;j<=n;j++)

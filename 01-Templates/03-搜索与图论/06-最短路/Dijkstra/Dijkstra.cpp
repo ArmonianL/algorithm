@@ -1,3 +1,6 @@
+//O(n^2)
+//单源最短路，边权正数
+//（全图）每次选离起点最近的点，然后更新
 const int N =505;
 int g[N][N];
 
@@ -12,10 +15,10 @@ int dijkstra()
 {
     memset(dis,0x3f,sizeof(dis));
     dis[1]=0;
-
-    for(int i=1;i<=n;i++)
+    //选和更新两个操作都直接遍历所有点就行了，因为有INF可以判断
+    for(int i=1;i<=n;i++)//执行n次的意思
     {
-        //选最小
+        //选最小（从全图中未更新的点中选）
         int t=-1;
         for(int j=1;j<=n;j++)
         {

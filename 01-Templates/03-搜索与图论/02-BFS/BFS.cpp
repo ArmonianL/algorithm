@@ -20,7 +20,8 @@ void bfs()
         {
             int x=t.first+dx[i];
             int y=t.second+dy[i];
-
+            
+            //这里的if也可以用很多个continue替代
             if(x>=0 && x<n && y>=0 && y<m && g[x][y]==0 && d[x][y]==-1)//能不能走+判重
             {
                 d[x][y]=d[t.first][t.second]+1;

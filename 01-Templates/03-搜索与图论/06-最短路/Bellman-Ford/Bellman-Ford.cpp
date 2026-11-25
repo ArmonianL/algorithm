@@ -1,4 +1,7 @@
-//标准bellman-ford算法
+//O(nm)
+//1.最多使用k条边的最短路（支持负权）
+//重要性质：第i轮松弛完成后，可以得到最多使用i条边的最短路径长度，前提是每轮使用上一轮的距离数组
+//2.判负环
 const int N =505;
 const int M=100010;
 const int INF=0x3f3f3f3f;
@@ -15,7 +18,7 @@ bool bellman_ford()
 {
     memset(dis,0x3f,sizeof(dis));
     dis[1]=0;
-    //n-1轮
+    //n-1轮,当然也可以求k轮
     for(int i=1;i<=n-1;i++)
     {
         memcpy(last,dis,sizeof(dis));//严格用上一轮的dis，防止本轮前面更新过的dis影响后面的dis的更新
@@ -24,7 +27,7 @@ bool bellman_ford()
             int a=edges[j].a;
             int b=edges[j].b;
             int c=edges[j].c;
-            if(last[a]<INF && last[a]+c<dis[b])//无穷不更新
+            if(last[a]<INF && last[a]+c<dis[b])//无穷不更新,不要用min，因为无穷+负权边也应该表示到达不了
             {
                 dis[b]=last[a]+c;
             }
@@ -37,7 +40,7 @@ bool bellman_ford()
         int a=edges[i].a;
         int b=edges[i].b;
         int c=edges[i].c;
-        if(last[a]<INF && last[a]+c<dis[b]) return false;
+        if(dis[a]<INF && dis[a]+c<dis[b]) return false;
     }
 
     return true;

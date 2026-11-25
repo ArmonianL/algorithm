@@ -1,3 +1,4 @@
+//O(m log n)
 const int N =150010;
 int h[N],e[N],w[N],ne[N],idx;
 
@@ -15,7 +16,7 @@ bool vis[N];
 int dis[N];
 int dijkstra()
 {
-    priority_queue<PII,vector<PII>,greater<PII>> pq;
+    priority_queue<PII,vector<PII>,greater<PII>> pq;//{最短距离，节点编号}
 
     memset(dis,0x3f,sizeof(dis));
     dis[1]=0;
@@ -34,7 +35,7 @@ int dijkstra()
         for(int i=h[ver];i!=-1;i=ne[i])
         {
             int j=e[i];
-            if(dis[ver]+w[i]<dis[j])
+            if(dis[ver]+w[i]<dis[j])//只有距离被更新（变小）的点，才需要重新入堆，因为没更新的点如果之前已经入堆，其候选距离还保留在堆中。
             {
                 dis[j]=dis[ver]+w[i];
                 pq.push({dis[j],j});

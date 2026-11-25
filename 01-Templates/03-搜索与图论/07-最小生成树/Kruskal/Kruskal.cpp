@@ -1,3 +1,5 @@
+//O(mlogm) 稀疏图
+//（全图）选不形成环的最小边
 int p[N];
 struct Edge
 {
@@ -21,9 +23,9 @@ int find(int x)
 
 int kruskal()
 {
-    sort(edges+1,edges+1+m);
+    sort(edges+1,edges+1+m);//时间复杂度主要开销
     int res=0;
-    int cnt=0;
+    int cnt=0;//已选边数
     for(int i=1;i<=m;i++)
     {
         int a=edges[i].a,b=edges[i].b,c=edges[i].c;
@@ -46,7 +48,7 @@ int main()
     for(int i=1;i<=m;i++)
     {
         int a,b,c;cin >> a >> b >> c;
-        //自环不要跳过，因为edges的m条边最后都会处理。自环加进去没关系
+        //自环不要跳过，不然edges数组会空一个位置，并查集会自行处理自环
         edges[i]={a,b,c};//无向边，重边加进去没关系
     }
 
